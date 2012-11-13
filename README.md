@@ -1,4 +1,4 @@
-Teaching idiomatic python with git
+==Teaching idiomatic python with git==
 
 
 As far as appending to strings, here are some tests:
@@ -6,7 +6,6 @@ As far as appending to strings, here are some tests:
 	cody@zentop:~$ python -m timeit -s "s = ''" "for i in xrange(0, 100): s = s + 'stuff' + 'more stuff'"
 	1000 loops, best of 3: 11.6 msec per loop
 
-	cody@zentop:~$ fc
 	python -m timeit -s "s = ''" "for i in xrange(0, 100): s = '{0}{1}{2}'.format(s, 'stuff', 'more stuff')"
 	1000 loops, best of 3: 11.7 msec per loop
 
