@@ -1,0 +1,8 @@
+create table geodata (
+ `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `zip_code` INT(5) NOT NULL,
+ `state` VARCHAR(2) NOT NULL,
+ `city` VARCHAR(6) NOT NULL,
+ `lat` FLOAT(10,6) NOT NULL,
+ `long` FLOAT(10,6) NOT NULL
+);

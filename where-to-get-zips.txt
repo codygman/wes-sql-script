@@ -1,0 +1,1 @@
+http://www.census.gov/tiger/tms/gazetteer/zips.txt
